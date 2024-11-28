@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #e7e9f1;
+   
+}
+
+:root {
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --cyan1: #70e3ea;
+
+}
+
+
+
+.green {
+    background-color: #008000;
+    font-size: x-large;
+}
+
+.yellow {
+    background-color: #c9c96c;
+    font-size: x-large;
+}
+
+.red {
+    background-color: #ff0000;
+    font-size: x-large;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+ 
+    }
+
+.card{
+    margin:30px;
+    margin-top:100px;
+    background-color: rgb(230, 230, 230);
+    color: #202020;
+    width: 250px;
+    height: 490px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    
+
+}
+
+.card h1 {
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
+
+.card img {
+    width: 200px; /* Defina a largura desejada */
+    height: 250px; /* Defina a altura desejada */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o espaço */
+}
+
+
+h1{
+    padding-bottom: 50px;
+}
+
+/* 
+h2 {
+    padding-bottom: 50px;
+} */
+
+
+
+
+
+.table2 {
+ 
+    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+      border-collapse: collapse; /* Remove espaços entre as bordas */
+      margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
+      /* font-family: Arial, sans-serif; */
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10rem;
+      font-weight: 500;
+      
+     
+} 
+
+
+.table2 th, td {
+    border: 2px solid #160d0d;    
+    padding: 10px;             /* Espaçamento interno das células */
+   }
+
+
+
+.table3{
+ 
+    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+      border-collapse: collapse; /* Remove espaços entre as bordas */
+      margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
+      /* font-family: Arial, sans-serif; */
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10rem;
+      font-weight: 500;
+          
+} 
+
+
+.td-bi {
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+.btn {
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #7c7b7b;
+    color:#f0f8ff;
+    border-radius: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+
+
+.btn :hover {
+    background-color: #2ecc71;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px ;
+}
+
+h1{
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
+color: rgb(9, 9, 87);
+font-size: 2.5em;
+}
+
+
+
+p{
+    font-size: 1.3em;
+    color: rgb(9, 9, 87);
+    padding-bottom: 50px;
+    padding-left: 30px;
+    font-weight: 500;
+    
+   
+}
+
+ol  {
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 90px;
+    line-height: 1.8em;
+    align-items:flex-end;
+}
+
+
+.tdbi{
+
+    align-content: center;
+   justify-items: center;
+}
