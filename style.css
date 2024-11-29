@@ -17,6 +17,18 @@
     --cyan1: #70e3ea;
 
 }
+.logo{
+    display: flex;
+   flex-direction: row;
+   height: 70px;
+   justify-content: center; 
+ 
+}
+
+
+
+
+
 
 
 
@@ -42,8 +54,14 @@
     justify-content: center;
     flex-wrap: wrap;
  
- 
     }
+
+
+
+
+
+  
+
 
 .card{
     margin:30px;
@@ -51,7 +69,7 @@
     background-color: rgb(230, 230, 230);
     color: #202020;
     width: 250px;
-    height: 490px;
+    height: 470px;
     border-radius: 12px;
     text-align: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -78,21 +96,22 @@
 
 
 h1{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
-/* 
-h2 {
-    padding-bottom: 50px;
-} */
 
-
+#title-secundary{
+    display: flex;
+    justify-content: center;
+    color: rgb(9, 9, 87);
+font-size: 1.2em;
+    }
 
 
 
 .table2 {
  
-    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+    width: 60%;             
       border-collapse: collapse; /* Remove espaços entre as bordas */
       margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
       /* font-family: Arial, sans-serif; */
@@ -107,17 +126,16 @@ h2 {
 
 .table2 th, td {
     border: 2px solid #160d0d;    
-    padding: 10px;             /* Espaçamento interno das células */
+    padding: 10px;             
    }
 
 
 
 .table3{
  
-    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+    width: 60%;             
       border-collapse: collapse; /* Remove espaços entre as bordas */
       margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
-      /* font-family: Arial, sans-serif; */
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10rem;
@@ -164,7 +182,7 @@ h2 {
 h1{
 display: flex;
 justify-content: center;
-padding-bottom: 50px;
+padding-bottom: 10px;
 color: rgb(9, 9, 87);
 font-size: 2.5em;
 }
@@ -174,12 +192,26 @@ font-size: 2.5em;
 p{
     font-size: 1.3em;
     color: rgb(9, 9, 87);
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     padding-left: 30px;
     font-weight: 500;
+  }
+
+
+  #parag{
     
-   
+    padding-left:6em;
+    padding-right: 6em;
+    font-size: smaller;
+    font-weight: 100;
+    /* color: #202020; */
+    margin-bottom: 0.1rem; 
+    line-height: 1.5; 
+    
 }
+
+
+
 
 ol  {
     font-size: 1em;
@@ -195,3 +227,5 @@ ol  {
     align-content: center;
    justify-items: center;
 }
+
+
