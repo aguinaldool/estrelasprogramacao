@@ -229,3 +229,8 @@ ol  {
 }
 
 
+.container7 {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
